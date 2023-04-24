@@ -1,0 +1,20 @@
+#spring:
+#  security:
+#    user:
+#      name: vinod
+#      password: password
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=tempdb;encrypt=true;trustServerCertificate=true;
+    username: AbolrousHazem
+    password: 340$Uuxwp7Mcxo7Khy
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+
+
